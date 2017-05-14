@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E9A7E7F67BAFB850C523F3 /* libPods-ColorWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B172259CDA3FF7FB9003148 /* libPods-ColorWeather.a */; };
+		DF5093F91EC871B10056ECFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5093F81EC871B10056ECFA /* main.m */; };
+		DF5093FC1EC871B10056ECFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5093FB1EC871B10056ECFA /* AppDelegate.m */; };
+		DF5093FF1EC871B10056ECFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5093FE1EC871B10056ECFA /* ViewController.m */; };
+		DF5094021EC871B10056ECFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5094001EC871B10056ECFA /* Main.storyboard */; };
+		DF5094041EC871B10056ECFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5094031EC871B10056ECFA /* Assets.xcassets */; };
+		DF5094071EC871B10056ECFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5094051EC871B10056ECFA /* LaunchScreen.storyboard */; };
+		DF5094151EC881290056ECFA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5094141EC881290056ECFA /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		570BB5C31CF1465EE2AA8F7C /* Pods-ColorWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorWeather/Pods-ColorWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		672F722AEBCE6FA691B209C3 /* Pods-ColorWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorWeather/Pods-ColorWeather.release.xcconfig"; sourceTree = "<group>"; };
+		7B172259CDA3FF7FB9003148 /* libPods-ColorWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5093F41EC871B10056ECFA /* ColorWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5093F81EC871B10056ECFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF5093FA1EC871B10056ECFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		DF5093FB1EC871B10056ECFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		DF5093FD1EC871B10056ECFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		DF5093FE1EC871B10056ECFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		DF5094011EC871B10056ECFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF5094031EC871B10056ECFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		DF5094061EC871B10056ECFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF5094081EC871B10056ECFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		DF5094131EC881290056ECFA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DF5094141EC881290056ECFA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5093F11EC871B10056ECFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E9A7E7F67BAFB850C523F3 /* libPods-ColorWeather.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36BCA568BD7F44AD6BC7B75D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				570BB5C31CF1465EE2AA8F7C /* Pods-ColorWeather.debug.xcconfig */,
+				672F722AEBCE6FA691B209C3 /* Pods-ColorWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF5093EB1EC871B10056ECFA = {
+			isa = PBXGroup;
+			children = (
+				DF5093F61EC871B10056ECFA /* ColorWeather */,
+				DF5093F51EC871B10056ECFA /* Products */,
+				36BCA568BD7F44AD6BC7B75D /* Pods */,
+				FE9289ACE21C680EBEB5D21B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5093F51EC871B10056ECFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5093F41EC871B10056ECFA /* ColorWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5093F61EC871B10056ECFA /* ColorWeather */ = {
+			isa = PBXGroup;
+			children = (
+				DF5094121EC8804F0056ECFA /* Views */,
+				DF50940E1EC8804F0056ECFA /* Models */,
+				DF5094111EC8804F0056ECFA /* ViewModels */,
+				DF5094101EC8804F0056ECFA /* ViewControllers */,
+				DF50940F1EC8804F0056ECFA /* Resource */,
+				DF5094001EC871B10056ECFA /* Main.storyboard */,
+			);
+			path = ColorWeather;
+			sourceTree = "<group>";
+		};
+		DF5093F71EC871B10056ECFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF5093F81EC871B10056ECFA /* main.m */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DF50940E1EC8804F0056ECFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF50940F1EC8804F0056ECFA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DF5093FA1EC871B10056ECFA /* AppDelegate.h */,
+				DF5093FB1EC871B10056ECFA /* AppDelegate.m */,
+				DF5094051EC871B10056ECFA /* LaunchScreen.storyboard */,
+				DF5094081EC871B10056ECFA /* Info.plist */,
+				DF5094031EC871B10056ECFA /* Assets.xcassets */,
+				DF5093F71EC871B10056ECFA /* Supporting Files */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DF5094101EC8804F0056ECFA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF5093FD1EC871B10056ECFA /* ViewController.h */,
+				DF5093FE1EC871B10056ECFA /* ViewController.m */,
+				DF5094131EC881290056ECFA /* MainViewController.h */,
+				DF5094141EC881290056ECFA /* MainViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DF5094111EC8804F0056ECFA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DF5094121EC8804F0056ECFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE9289ACE21C680EBEB5D21B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B172259CDA3FF7FB9003148 /* libPods-ColorWeather.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5093F31EC871B10056ECFA /* ColorWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF50940B1EC871B10056ECFA /* Build configuration list for PBXNativeTarget "ColorWeather" */;
+			buildPhases = (
+				EB6E33EE9EB0960C36E8DD48 /* [CP] Check Pods Manifest.lock */,
+				DF5093F01EC871B10056ECFA /* Sources */,
+				DF5093F11EC871B10056ECFA /* Frameworks */,
+				DF5093F21EC871B10056ECFA /* Resources */,
+				ED50B69BD83CF911A5194D15 /* [CP] Embed Pods Frameworks */,
+				8A1D974363D0C62C79EED563 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorWeather;
+			productName = ColorWeather;
+			productReference = DF5093F41EC871B10056ECFA /* ColorWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5093EC1EC871B10056ECFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Yangzheng;
+				TargetAttributes = {
+					DF5093F31EC871B10056ECFA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YBGV2535C9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF5093EF1EC871B10056ECFA /* Build configuration list for PBXProject "ColorWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF5093EB1EC871B10056ECFA;
+			productRefGroup = DF5093F51EC871B10056ECFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5093F31EC871B10056ECFA /* ColorWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5093F21EC871B10056ECFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5094071EC871B10056ECFA /* LaunchScreen.storyboard in Resources */,
+				DF5094041EC871B10056ECFA /* Assets.xcassets in Resources */,
+				DF5094021EC871B10056ECFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A1D974363D0C62C79EED563 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorWeather/Pods-ColorWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB6E33EE9EB0960C36E8DD48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED50B69BD83CF911A5194D15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorWeather/Pods-ColorWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5093F01EC871B10056ECFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5093FF1EC871B10056ECFA /* ViewController.m in Sources */,
+				DF5093FC1EC871B10056ECFA /* AppDelegate.m in Sources */,
+				DF5093F91EC871B10056ECFA /* main.m in Sources */,
+				DF5094151EC881290056ECFA /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF5094001EC871B10056ECFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5094011EC871B10056ECFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5094051EC871B10056ECFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5094061EC871B10056ECFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF5094091EC871B10056ECFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF50940A1EC871B10056ECFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF50940C1EC871B10056ECFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570BB5C31CF1465EE2AA8F7C /* Pods-ColorWeather.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YBGV2535C9;
+				INFOPLIST_FILE = ColorWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.yangzheng.ColorWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF50940D1EC871B10056ECFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672F722AEBCE6FA691B209C3 /* Pods-ColorWeather.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YBGV2535C9;
+				INFOPLIST_FILE = ColorWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tk.yangzheng.ColorWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5093EF1EC871B10056ECFA /* Build configuration list for PBXProject "ColorWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5094091EC871B10056ECFA /* Debug */,
+				DF50940A1EC871B10056ECFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF50940B1EC871B10056ECFA /* Build configuration list for PBXNativeTarget "ColorWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF50940C1EC871B10056ECFA /* Debug */,
+				DF50940D1EC871B10056ECFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF5093EC1EC871B10056ECFA /* Project object */;
+}
